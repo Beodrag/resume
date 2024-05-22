@@ -11,7 +11,7 @@ import './styles.css';
 
 function App() {
   return (
-    <Router basename="/resume">
+    <Router>
       <div id="root">
         <Navbar />
         <Routes>
