@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './Navbar';
@@ -12,7 +11,7 @@ import './styles.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/resume">
       <div id="root">
         <Navbar />
         <Routes>
